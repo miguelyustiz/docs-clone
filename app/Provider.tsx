@@ -1,8 +1,10 @@
 "use client";
 import Loader from "@/components/Loader";
 import { getClerkUser } from "@/lib/actions/user.actions";
-import { LiveblocksProvider } from "@liveblocks/react";
-import { ClientSideSuspense } from "@liveblocks/react";
+import {
+  ClientSideSuspense,
+  LiveblocksProvider,
+} from "@liveblocks/react/suspense";
 import React from "react";
 
 const Provider = ({ children }: { children: React.ReactNode }) => {
