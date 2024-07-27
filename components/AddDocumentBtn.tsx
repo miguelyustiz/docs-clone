@@ -21,7 +21,7 @@ const AddDocumentBtn = ({ userId, email }: AddDocumentBtnProps) => {
     <Button
       type="submit"
       onClick={addDocumentHandler}
-      className="gradient-blue flex gap-1 shadow-md"
+      className="gradient-yellow hover:bg-slate-800 text-white flex gap-1 shadow-md"
     >
       <Image
         src="/assets/icons/add.svg"
@@ -29,7 +29,7 @@ const AddDocumentBtn = ({ userId, email }: AddDocumentBtnProps) => {
         width={24}
         height={24}
       />
-      <p className="hidden sm:block">Start a blank Document</p>
+      <p className="hidden sm:block font-semibold">Start a blank Document</p>
     </Button>
   );
 };
