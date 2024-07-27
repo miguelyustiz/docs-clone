@@ -10,6 +10,7 @@ import { metadata } from "../layout";
 import Link from "next/link";
 import { dateConverter } from "@/lib/utils";
 import { DeleteModal } from "@/components/DeteleteModal";
+import Notification from "@/components/Notification";
 
 const Home = async () => {
   const clerkUser = await currentUser();
@@ -21,7 +22,7 @@ const Home = async () => {
     <main className="home-container">
       <Header className="sticky left-0 top-0">
         <div className="flex  items-center justify-center gap-2">
-          Notification
+          <Notification />
           <SignedIn>
             <UserButton />
           </SignedIn>
