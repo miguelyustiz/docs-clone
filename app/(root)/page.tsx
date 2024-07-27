@@ -58,7 +58,6 @@ const Home = async () => {
                     </p>
                   </div>
                 </Link>
-                {/* //TODO: Add delete button */}
                 <DeleteModal roomId={id} />
               </li>
             ))}
