@@ -45,12 +45,6 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/miguelyustiz/live-notes-app.git
-cd collaborative-editor
-```
 
 **Installation**
 
