@@ -1,6 +1,6 @@
 ## <a name="introduction">🤖 Introduction</a>
 
-Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS, LiveDocs is a clone of Goole Docs. The primary goal is to demonstrate my skills in realtime enviroment that creates a lasting impact.
+Built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS. The primary goal is to demonstrate my skills in realtime enviroment that creates a lasting impact.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
