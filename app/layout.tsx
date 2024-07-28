@@ -13,8 +13,8 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Docs Clone",
-  description: "Your next docs clone",
+  title: "Notes App",
+  description: "Your next Live note app",
 };
 
 export default function RootLayout({
